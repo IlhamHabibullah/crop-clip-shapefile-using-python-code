@@ -1,9 +1,9 @@
 import geopandas as gpd
 
 # Path ke file shapefile
-zonasi_path = "/home/gps06/Downloads/Zonasi_Kawasan_Konservasi_2024_B8/Zonasi_Kawasan_Konservasi_2024_B8.shp"
-wpp_path = "/home/gps06/Documents/1_tes/wpp_714/poly_wpp_714.shp"
-output_path = "/home/gps06/Documents/1_tes/wpp_714/clipped_zonasi.shp"
+zonasi_path = ""
+wpp_path = ""
+output_path = ""
 
 # Membaca shapefile
 zonasi_gdf = gpd.read_file(zonasi_path)
